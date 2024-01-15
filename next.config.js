@@ -4,7 +4,8 @@ const nextConfig = {
         return{
             "/":{page:"/"}
         }
-    }
+    },
+    output: 'export',
 }
 
 module.exports = nextConfig
